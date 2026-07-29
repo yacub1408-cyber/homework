@@ -1,0 +1,54 @@
+fieldset {
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 250px;
+    background-color: #cdc2c2;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label,
+span {
+    display: block;
+}
+
+.stroka {
+    width: 200px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 150px;
+    min-height: 19px;
+    width: 200px;
+    background-color: #cdc2c2;
+    border: 1px solid #000000;
+}
+
+input {
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background-color: #cdc2c2;
+}
+
+span {
+    margin: 5px 0 10px 0;
+}
+
+.check {
+    cursor: pointer;
+}
+
+button {
+    margin-top: 5px;
+    cursor: pointer;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+legend {
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 0;
+}
