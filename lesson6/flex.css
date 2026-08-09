@@ -1,0 +1,43 @@
+html {
+    font-family: sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+    color: black;
+}
+
+.navigation-square {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+
+.header-container {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    align-items: center;
+    gap: 1vw;
+}
+
+.navigation_list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+li {
+    margin-right: 20px;
+}
+
+.number {
+    text-decoration: none;
+}
