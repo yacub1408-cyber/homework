@@ -1,0 +1,102 @@
+html {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 375px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.text {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #2c332f;
+}
+
+
+.button {
+    padding: 19px 32px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background-color: #3596ed;
+    transition: opacity 0.2s;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.news-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #3596ed;
+
+}
+
+summary {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #2c332f;
+}
+
+@media (width <=992px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (width <=768px) {
+    .container {
+        max-width: 576px;
+    }
+}
