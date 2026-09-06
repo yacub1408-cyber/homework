@@ -1,0 +1,173 @@
+.article {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.title--large {
+    max-width: 596px;
+    font-size: 48px;
+}
+
+.title--medium {
+    font-size: 36px;
+}
+
+.training__text {
+    margin-bottom: 20px;
+    color: #535755;
+}
+
+.mb-big {
+    margin-bottom: 80px;
+}
+
+.mb-small {
+    margin-bottom: 40px;
+}
+
+.opening__decor {
+    position: relative;
+}
+
+.decor::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 48px;
+    background: url("../images/decor-long.svg") repeat-x;
+
+}
+
+.opening__decor::before {
+    top: 100px;
+}
+
+.overview__decor::before {
+    right: 0;
+    top: 100px;
+}
+
+.opening__img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.opening__text {
+    margin-bottom: 20px
+}
+
+
+
+.training__item::marker {
+    font-size: 22px;
+    color: #3596ed;
+}
+
+.training__list {
+    margin-top: 0;
+    padding-left: 16px;
+}
+
+.training__item {
+    margin-bottom: 12px;
+    color: #535755;
+
+}
+
+.overview__decor {
+    position: relative;
+}
+
+.overview__img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overview__button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    background-color: rgb(0, 110, 255);
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.overview__button button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    background-color: #3596ed;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+@media (width <=768px) {
+    .decor::before {
+        display: none;
+    }
+
+    .title--medium {
+        font-size: 30px;
+    }
+
+    .mb-big {
+        margin-bottom: 55px;
+    }
+
+    .mb-small {
+        margin-bottom: 34px;
+    }
+
+    .title--large {
+        font-size: 40px;
+    }
+}
+
+@media (width <=576px) {
+    .article {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .title--large {
+        font-size: 30px;
+    }
+
+    .title--medium {
+        font-size: 28px;
+    }
+
+    .mb-small {
+        margin-bottom: 30px;
+    }
+
+    .overview__button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .overview__button img {
+        width: 18px;
+        height: 18px;
+    }
+}
