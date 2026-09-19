@@ -1,0 +1,86 @@
+.hero {
+    background-image: var(--bg-gradient1);
+    min-width: 375px;
+    position: releative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.hero__neitron-right {
+    position: absolute;
+    top: 138px;
+    left: 50%;
+    box-shadow: inset 58px 4px 191px 47px #000;
+    mix-blend-mode: lighten;
+    background: url(../../images/neiron.png);
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero__top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.hero__welcome {
+    margin-top: 155px;
+}
+
+.hero__benefit-text {
+    font-weight: 600;
+    color: #747d81;
+}
+
+.hero__benefit-desc {
+    margin-top: 18px;
+}
+
+.hero__benefit-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 108px;
+    background: linear-gradient(180deg, #fff 31.75%, #1a3031 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero__study {
+    display: flex;
+    align-items: center;
+    margin-top: 77px;
+    gap: 33px;
+}
+
+.hero__list {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.hero__item1 {
+    font-weight: 500;
+    line-height: 172%;
+}
+
+.hero__item2 {
+    font-weight: 500;
+    line-height: 128%;
+    color: #00e0ff;
+}
+
+
+.hero__diploma-icon {
+    padding: 18px 16px 14px 16px;
+    box-sizing: content-box;
+    background: linear-gradient(180deg, rgba(0, 224, 255, 0.11) 0%, rgba(0, 224, 255, 0.05) 100%);
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+}
+
+.hero__open-button {
+    margin-top: 101px;
+}
