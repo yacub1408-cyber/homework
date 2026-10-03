@@ -1,0 +1,22 @@
+:root {
+  /* font-family */
+  --font-family: "AvenirNextCyr", sans-serif;
+
+  /* colors */
+  --accent-color: #00e0ff;
+  --secondary-color: #FFFFFF;
+  --rare-color: #08B1B9;
+  --bg-gradient1: linear-gradient(286.41deg, #022335 3.63%, #043a41 90.98%);
+  --bg-forms: linear-gradient(286.41deg, #033958 3.19%, #0f6b78 86.86%);
+  --bg-elements: linear-gradient(180deg, rgba(0, 224, 255, 0.11) 0%, rgba(0, 224, 255, 0.05) 100%);
+  --bg-label: background: linear-gradient(180deg, rgba(0, 224, 255, 0.11) 0%, rgba(0, 224, 255, 0.05) 100%);
+
+
+  /* .dont use */
+  --disabled-color: #5d5d56;
+  --header-shadow: #181817;
+
+  /* .container */
+  --container-width: 1200px;
+  --container-padding: 30px
+}
