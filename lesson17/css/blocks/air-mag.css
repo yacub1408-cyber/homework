@@ -1,0 +1,74 @@
+.air__title {
+    font-size: clamp(2rem, 1.205rem + 3.39vw, 3.75rem);
+    margin-bottom: 10px;
+}
+
+
+.air__main {
+    display: flex;
+    gap: 40px;
+}
+
+@media (width <=992px) {
+    .air__main {
+        flex-direction: column;
+        margin-bottom: 15px;
+        gap: 0px;
+    }
+}
+
+@media(width > 768px) {
+    .air__description {
+        display: flex;
+    }
+}
+
+.air__description:before {
+    content: "";
+    display: block;
+    background-image: url("../../icons/air-coub.svg");
+    width: 131px;
+    height: 40px;
+    flex-shrink: 0;
+    gap: 26px;
+    transform: translateX(-13px);
+    margin-bottom: 15px;
+}
+
+@media (width < 768px) {
+    .air__description {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+.air__list {
+    max-width: 600px;
+}
+
+@media (width > 992px) {
+    .air__list {
+        display: flex;
+        flex-direction: column;
+        transform: translateY(77px);
+        max-width: 293px;
+        gap: 40px;
+    }
+}
+
+.air__item:before {
+    content: "";
+    display: block;
+    background: url("../../icons/check.svg") no-repeat;
+    width: 45px;
+    height: 32px;
+    flex-shrink: 0;
+    transform: translateX(-5px);
+}
+
+.air__item {
+    font-weight: 300;
+}

@@ -1,0 +1,44 @@
+html {
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--main-color);
+    scroll-behavior: smooth;
+    scroll-padding-top: 98px;
+}
+
+.page__body {
+    min-width: 375px;
+    background-color: var(--bg-color);
+    min-height: 200vh;
+}
+
+.page__body--no-scroll {
+    overflow: hidden;
+}
+
+.container {
+    width: min(var(--container-width), 100% - var(--container-padding)*2);
+    margin: 0 auto;
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 1px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+.text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--main-color);
+}
+
+.title-main {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
