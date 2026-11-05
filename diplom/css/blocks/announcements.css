@@ -1,0 +1,95 @@
+.announcements {
+    margin-bottom: 84px;
+}
+
+
+.header__announcements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 49px;
+}
+
+.announcements__button {
+    padding: 22px 30px 25px 30px;
+    border: 1px solid #00bfff;
+    border-radius: 9px;
+}
+
+.swiper-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.swiper-slide {
+    max-width: 400px;
+}
+
+.announcements__item {
+    position: relative;
+}
+
+.announcements__item:after {
+    content: "";
+    position: absolute;
+    flex-shrink: 0;
+    bottom: 17px;
+    left: 42px;
+    width: 63px;
+    height: 32px;
+    background: url("../../icons/Ellispe__super-little.svg") no-repeat;
+}
+
+
+.announcements__time {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    position: absolute;
+    top: 25px;
+    right: 21px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 175%;
+    color: #fff;
+}
+
+.announcements__time:before {
+    content: "";
+    width: 9px;
+    height: 9px;
+    background: url("../../icons/calendar.svg") no-repeat;
+}
+
+
+.announcements__item-image {
+    margin-bottom: 29px;
+    position: relative;
+}
+
+.announcements__description {
+    font-size: 15px;
+    line-height: 140%;
+    background: linear-gradient(180deg, #fff 65.96%, rgba(105, 104, 104, 0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+
+.announcements__item-title {
+    font-weight: 650;
+    font-size: 16px;
+    line-height: 131%;
+    margin-bottom: 18px;
+}
+
+
+.announcements__more {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 175%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4abcec;
+}
