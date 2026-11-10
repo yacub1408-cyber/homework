@@ -1,0 +1,106 @@
+.author {
+    padding: 100px 0 101px;
+}
+
+.author__container {
+    display: flex;
+    gap: clamp(0.625rem, -1.733rem + 10.06vw, 5.813rem);
+}
+
+@media(width<=992px) {
+    .author__container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.author__title {
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
+
+
+@media(width>992px) {
+    .author__description-wrap {
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+    }
+}
+
+.author__text-wrap {
+    position: relative;
+}
+
+.author__text-wrap::before {
+    content: "";
+    position: absolute;
+    flex-shrink: 0;
+    left: -22px;
+    top: -3px;
+    width: 63px;
+    height: 32px;
+    background: url("../../icons/Ellispe__super-little.svg") no-repeat;
+}
+
+.author__description {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 160%;
+    margin-bottom: 38px;
+}
+
+.author__container {
+    position: relative;
+}
+
+.author__description-name {
+    bottom: 105px;
+    transform: translatex(115%);
+    position: absolute;
+}
+
+@media(width>992px) {
+    .author__portrait {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .author__bg-bliki {
+        transform: translate(-10%);
+        width: 1084px;
+        height: 610px;
+        z-index: -2;
+    }
+}
+
+@media(width<=992px) {
+    .author__bg-bliki {
+        transform: translatex(-70%);
+        width: 1084px;
+        height: 610px;
+        z-index: -1;
+    }
+}
+
+.author__bg-bliki2 {
+    transform: translate(-50%);
+    width: 1084px;
+    height: 610px;
+    z-index: -2;
+}
+
+.author__name {
+    font-weight: 650;
+    font-size: clamp(1.125rem, 0.955rem + 0.73vw, 1.5rem);
+    line-height: 83%;
+    color: #00e0ff;
+}
+
+.author__post {
+    font-size: clamp(0.75rem, 0.693rem + 0.24vw, 0.875rem);
+    line-height: 143%;
+    margin: 0;
+    white-space: nowrap;
+}
