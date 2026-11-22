@@ -1,0 +1,131 @@
+.knowledge {
+    padding: 103px 0 109px;
+}
+
+.knowledge__title {
+    margin-bottom: 30px;
+}
+
+.knowledge__description {
+    margin-bottom: 27px;
+}
+
+details {
+    margin-bottom: 18px;
+}
+
+
+.knowledge__wrap-development {
+    align-items: center;
+    background: linear-gradient(286.41deg, #073447 3.8%, #08262b 92.54%);
+    position: relative;
+    border-radius: 6px;
+}
+
+details[open] .knowledge__open-item {
+    transform: rotate(180deg);
+}
+
+summary {
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    padding: clamp(0.5rem, 0.244rem + 1.09vw, 1.063rem) clamp(0.625rem, 0.483rem + 0.61vw, 0.938rem) clamp(0.5rem, 0.273rem + 0.97vw, 1rem) 43px;
+    background: linear-gradient(286.41deg, #073447 3.8%, #08262b 92.54%);
+    position: relative;
+    border-radius: 6px;
+}
+
+summary ::before {
+    content: "";
+    position: absolute;
+    flex-shrink: 0;
+    left: 10px;
+    top: 18px;
+    width: 26px;
+    height: 26px;
+    background: url("../../icons/circle.svg") no-repeat;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+.knowledge__time {
+    font-weight: 650;
+    font-size: 20px;
+    line-height: 105%;
+    border-radius: 6px;
+}
+
+.knowledge__open-item {
+    box-sizing: content-box;
+    padding: 12px 10px 13px 10px;
+    background-color: var(--bg-elements);
+    border: 2px solid #00bfff;
+    border-radius: 6px;
+}
+
+.knowledge__step {
+    margin-left: -43px;
+}
+
+.knowledge-accent {
+    font-weight: 550;
+    font-size: 15px;
+    color: #08b1b9;
+}
+
+.knowledge__list {
+    margin-top: 34px;
+}
+
+.knowledge__item {
+    margin-left: 43px;
+    margin-bottom: 40px;
+}
+
+.development {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 162%;
+    text-transform: uppercase;
+    color: #08262b;
+    background-color: #00bfff;
+    padding: 0 3px 0 4px;
+    margin-bottom: 11px;
+}
+
+.knowledge__step {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 11px;
+}
+
+.knowledge__step::before {
+    content: attr(data-number);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 27px;
+    height: 27px;
+    background: var(--accent-color);
+    color: black;
+    flex-shrink: 0;
+    border-radius: 50%;
+    font-weight: 650;
+    font-size: 14px;
+    line-height: 150%;
+
+}
+
+.knowledge__text {
+    font-size: 16px;
+    line-height: 131%;
+}
+
+.knowledge__button {
+    margin-top: 59px;
+}
