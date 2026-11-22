@@ -18,7 +18,6 @@
 }
 
 .author__title {
-    margin-top: 35px;
     margin-bottom: 60px;
 }
 
@@ -44,7 +43,7 @@
     position: absolute;
     flex-shrink: 0;
     left: -22px;
-    top: -3px;
+    transform: translatey(-3px);
     width: 63px;
     height: 32px;
     background: url("../../icons/Ellispe__super-little.svg") no-repeat;

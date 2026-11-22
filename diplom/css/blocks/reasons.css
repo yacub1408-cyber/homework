@@ -37,18 +37,20 @@
     padding-left: clamp(1.125rem, 0.443rem + 2.91vw, 2.625rem);
     padding-bottom: clamp(0.875rem, 0.108rem + 3.27vw, 2.563rem);
     padding-right: clamp(1.5rem, 1.102rem + 1.7vw, 2.375rem);
+    position: relative;
 }
 
-/* .reasons__card-item1::after { полоска под карточкой
+.reasons__card-item1::after,
+.reasons__card-item2::after {
     content: "";
     position: absolute;
-    width: 100%;
-    height: 10px;
-    bottom: 0px;
+    width: 63px;
+    height: 28px;
+    bottom: -10px;
     left: 42px;
-    background: url(../../icons/Ellipse\ .svg);
+    background: url("../../icons/Ellispe__super-little.svg") no-repeat;
     z-index: 1;
-} */
+}
 
 .reasons__card-item2 {
     border-radius: 20px;
@@ -58,6 +60,7 @@
     padding-left: clamp(1.125rem, 0.443rem + 2.91vw, 2.625rem);
     padding-bottom: clamp(0.875rem, 0.108rem + 3.27vw, 2.563rem);
     padding-right: clamp(1.5rem, 1.102rem + 1.7vw, 2.375rem);
+    position: relative;
 }
 
 .reasons__card-item1 {
